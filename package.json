@@ -20,7 +20,7 @@
   "scripts": {
     "start": "CHOKIDAR_USEPOLLING=true react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha --timeout 5000 -w ./test/*.js",
+    "test": "mocha --timeout 50000 -w ./test/*.js",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
